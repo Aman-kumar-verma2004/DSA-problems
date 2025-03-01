@@ -12,12 +12,13 @@ public class Stack1 {
         s.push(top);
     }
     public static void main(String[] args) {
+        //creating a Stack using Collections
         Stack<Integer> s = new Stack<>();
         s.push(1);
         s.push(2);
         s.push(3);
 
-         addAtBottom(s, 4);
+        addAtBottom(s, 4);
         while(!s.isEmpty()){
             System.out.println(s.pop());
         }
